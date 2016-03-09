@@ -16,6 +16,11 @@ before_install:
 install:
   - luarocks make
   - luarocks install busted
+  - luarocks install luacov
+  - luarocks install luacov-coveralls
 
 script:
-  - busted --verbose
+  - busted --verbose --coverage
+
+after_success:
+  - luacov-coveralls -e $TRAVIS_BUILD_DIR/lua_install
