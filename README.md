@@ -1,4 +1,8 @@
 # luaci
+
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://mit-license.org)
+[![Build Status](https://travis-ci.org/jvprat/luaci.svg?branch=master)](https://travis-ci.org/jvprat/luaci)
+
 Template for Lua projects that follow good practices of the Lua ecosystem and continuous integration as described in http://kiki.to/blog/2016/02/04/talk-continuous-integration-with-lua/
 
 Important integrated features are:
