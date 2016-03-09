@@ -15,3 +15,7 @@ before_install:
 
 install:
   - luarocks make
+  - luarocks install busted
+
+script:
+  - busted --verbose

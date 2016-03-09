@@ -9,5 +9,6 @@ Important integrated features are:
 - Packaged as a LuaRock
 - Travis CI integration
 - Built on several versions of Lua and LuaJIT
+- Tests are defined using the Busted library
 
 When creating your project, either fork this project or copy the files manually and modify them to your needs.
