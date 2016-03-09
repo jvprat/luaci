@@ -12,5 +12,6 @@ Important integrated features are:
 - Built on several versions of Lua and LuaJIT
 - Tests are defined using the Busted library
 - Code coverage gathered using Luacov and pushed to coveralls.io
+- Static analysis using luacheck
 
 When creating your project, either fork this project or copy the files manually and modify them to your needs.

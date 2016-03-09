@@ -15,11 +15,13 @@ before_install:
 
 install:
   - luarocks make
+  - luarocks install luacheck
   - luarocks install busted
   - luarocks install luacov
   - luarocks install luacov-coveralls
 
 script:
+  - luacheck --std max+busted src spec
   - busted --verbose --coverage
 
 after_success:
