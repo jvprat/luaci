@@ -22,7 +22,7 @@ dependencies = {
 
 build = {
    type = "builtin",
-   copy_directories = { "spec" },
+   copy_directories = { "doc", "spec" },
    modules = {
      ["mylib"] = "src/mylib.lua"
    }

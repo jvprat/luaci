@@ -13,5 +13,6 @@ Important integrated features are:
 - Tests are defined using the Busted library
 - Code coverage gathered using Luacov and pushed to coveralls.io
 - Static analysis using luacheck
+- Documentation generated using LDoc
 
 When creating your project, either fork this project or copy the files manually and modify them to your needs.
