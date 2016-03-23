@@ -2,7 +2,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://mit-license.org)
 [![Build Status](https://travis-ci.org/jvprat/luaci.svg?branch=master)](https://travis-ci.org/jvprat/luaci)
-[![Coverage Status](https://coveralls.io/repos/jvprat/luaci/badge.png?branch=master)](https://coveralls.io/r/jvprat/luaci?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/jvprat/luaci/badge.svg?branch=master)](https://coveralls.io/github/jvprat/luaci?branch=master)
 
 Template for Lua projects that follow good practices of the Lua ecosystem and continuous integration as described in http://kiki.to/blog/2016/02/04/talk-continuous-integration-with-lua/
 
